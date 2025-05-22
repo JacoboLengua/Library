@@ -1,0 +1,90 @@
+body {
+    background-color: #f8f4f0; /* color beige claro */
+    color: #3e2723; /* marrón oscuro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    font-weight: 700;
+    color: #ffffff; /* marrón más intenso */
+    font-family: Georgia, serif;
+}
+
+.navbar {
+    background-color: #4e342e !important; /* marrón oscuro para navbar */
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+.navbar-brand span.fs-5 {
+    font-weight: 700;
+    color: #ffd54f; /* amarillo mostaza */
+    font-family: Georgia, serif;
+}
+
+.navbar-brand img {
+    border: 2px solid #ffd54f;
+    padding: 2px;
+    background-color: white;
+}
+
+.nav-link {
+    color: #d7ccc8 !important; /* gris claro */
+    font-weight: 600;
+}
+
+.nav-link.active {
+    color: #ffd54f !important;
+    font-weight: 700;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgb(78 52 46 / 0.25);
+    border: none;
+}
+
+.bg-dark {
+    background-color: #5d4037 !important; /* marrón medio */
+}
+
+.bg-light {
+    background-color: #fff8f0 !important; /* beige muy claro */
+}
+
+label {
+    font-weight: 600;
+    color: #4e342e;
+}
+
+input.form-control,
+textarea.form-control {
+    border-radius: 8px;
+    border: 1.5px solid #a1887f;
+    transition: border-color 0.3s ease;
+}
+
+input.form-control:focus,
+textarea.form-control:focus {
+    border-color: #6d4c41;
+    box-shadow: 0 0 5px #b57d53;
+    outline: none;
+}
+
+button.btn-primary {
+    background-color: #6d4c41;
+    border-color: #6d4c41;
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-primary:hover {
+    background-color: #5d4037;
+    border-color: #5d4037;
+}
+
+#respuesta {
+    font-weight: 600;
+    color: #6d4c41;
+}
